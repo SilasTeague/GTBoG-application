@@ -17,10 +17,10 @@ function switchTab(tabId) {
     }
   }
   
-  // Set up event listeners properly
-  document.getElementById('profile-button').addEventListener("click", function() {
+// Set up event listeners
+document.getElementById('profile-button').addEventListener("click", function() {
     switchTab('profile');
-  });
-  document.getElementById('interests-button').addEventListener("click", function() {
+});
+document.getElementById('interests-button').addEventListener("click", function() {
     switchTab('interests');
-  });
+});
